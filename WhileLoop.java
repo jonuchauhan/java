@@ -5,6 +5,7 @@ public class WhileLoop {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your name :");
+
         String name = scan.nextLine();
 
         while (name.isEmpty()) {
